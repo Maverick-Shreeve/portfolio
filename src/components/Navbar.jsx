@@ -89,15 +89,15 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-      </ul>
+      </ul> 
 
-      {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      {/* Side icons */}
+      <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
         <ul>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a  
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://app.luminpdf.com/viewer/6276fb9f77e4ec345afd5103/'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/https://github.com/Maverick-Shreeve?tab=repositories'
+              href='https://github.com/Maverick-Shreeve?tab=repositories/'
             >
               Github <FaGithub size={30} />
             </a>
@@ -121,7 +121,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/maverick-shreeve-30a9701a4//'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
