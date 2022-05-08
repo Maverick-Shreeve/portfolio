@@ -20,6 +20,7 @@ const Home = () => {
             View Work
             <span className='group-hover:rotate-90 duration-300'>  {/* needed to add the group for the arrow to work correctly */}
               <HiArrowNarrowRight className='ml-3 ' />
+              
             </span>
           </button>
         </div>
