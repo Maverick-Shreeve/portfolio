@@ -13,3 +13,18 @@
         @apply cursor-pointer
     }
 }
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+}
+
+.content-div:hover {  
+    background-image: linear-gradient(    /* this hover is what lets our picture get blacked out   */
+        to right,
+        rgba(106, 111, 122, 0.233),
+        hsla(242, 74%, 67%, 0.8)   
+    )!important;   /* had to add the important tag because it was getting ignored in my work.jsx file   */
+}
