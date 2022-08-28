@@ -1,7 +1,7 @@
 import React from 'react';
 import Bestman from '../assets/bestman.jpg';
 import Crypto from '../assets/crypto.jpg';
-import NFT from '../assets/nft.jpg';
+import netflix from '../assets/netflix.jpg';
 
 const Work = () => {
   return (
@@ -15,7 +15,7 @@ const Work = () => {
         </div>
 
 {/* Container */}
-          <div className='grid sm:grid-cols-2 md:grid-cols-1 gap-4'>
+          <div className='grid sm:grid-cols-2 md:grid-cols-1 gap-3'>
 
             {/* Grid Item */}
           <div
@@ -34,7 +34,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/Maverick-Shreeve/bestman2/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -67,21 +67,21 @@ const Work = () => {
           </div>
         
           <div
-            style={{ backgroundImage: `url(${NFT})` }}
+            style={{ backgroundImage: `url(${netflix})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Python automation
+                Netflix Clone
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://opensea.io/collection/my-first-nfts-with-python/'>
+                <a href='https://netflix-2-4f20c.web.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Maverick-Shreeve/NFT-PROJECT/'>
+                <a href='https://github.com/Maverick-Shreeve/netflix-clone/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
