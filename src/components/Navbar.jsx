@@ -6,8 +6,7 @@ import {
   FaLinkedin,
 
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -93,14 +92,7 @@ const Navbar = () => {
       {/* Side icons */}
       <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
         <ul>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a  
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://app.luminpdf.com/viewer/627d5bb519d9e879988c5b04/'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li> {/* ml-[-100px] hover:ml-[-10px] duration-300 this is the code that keeps these links off the screen and slide out */}
+        
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
