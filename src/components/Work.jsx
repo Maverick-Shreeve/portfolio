@@ -26,15 +26,15 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS App using a API
+                Office-Gainz
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://bestman2-j3lonsw2d-maverick-shreeve.vercel.app//'>
+                <a href='https://office-gainz.vercel.app//'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Maverick-Shreeve/bestman2/'>
+                <a href='https://github.com/Maverick-Shreeve/office-gainz/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
